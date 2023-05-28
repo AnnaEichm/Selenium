@@ -34,7 +34,7 @@ public class PositiveTest {
 		
 		WebElement password = driver.findElement(By.name("password"));
 		password.sendKeys("SuperSecretPassword!");
-		sleep(1000);
+		sleep(2000);
 
 		// click login button
 		WebElement loginButton = driver.findElement(By.tagName("button"));
